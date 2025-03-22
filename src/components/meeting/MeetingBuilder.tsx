@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 // import Layoxut from '@/components/Layout';
-import ScheduleMeeting from './schedulemeeting';
+import ScheduleMeeting from './ScheduleMeeting';
 import MeetingLink from './MeetingLink';
 import { Navbar } from '../layout/Navbar';
 import { Footer } from '../layout/Footer';

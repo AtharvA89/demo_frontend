@@ -17,8 +17,7 @@ import { auth } from "@/services/api";
 
 export function AuthForm() {
   const [isLoading, setIsLoading] = useState(false);
-  const [role, setRole] = useState<UserRole | ''>('');
-  // console.log(UserRole);
+  const [role, setRole] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [fullName, setFullName] = useState('');
